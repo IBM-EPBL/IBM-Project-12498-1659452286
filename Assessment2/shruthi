@@ -1,0 +1,10 @@
+import random
+a=random.randint(0,130)
+b=random.randint(0,50)
+print(a)
+print(b)
+while((a>0) and (b>0)):
+    if((a>80) and (b>30)):
+        print("High temperature")
+    else:
+        print("Normal temperature"
